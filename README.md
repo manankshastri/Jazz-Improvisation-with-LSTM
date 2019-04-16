@@ -26,6 +26,8 @@ Finally, we are ready to generate music. Our RNN generates a sequence of values.
 
 Most computational music algorithms use some post-processing because it is difficult to generate music that sounds good without such post-processing. The post-processing does things such as clean up the generated audio by making sure the same sound is not repeated too many times, that two successive notes are not too far from each other in pitch, and so on. One could argue that a lot of these post-processing steps are hacks; also, a lot the music generation literature has also focused on hand-crafting post-processors, and a lot of the output quality depends on the quality of the post-processing and not just the quality of the RNN. But this post-processing does make a huge difference, so lets use it in our implementation as well. 
 
+<a href="https://youtu.be/_c0W6_INQ5Y">Listen on YouTube</a>
+
 ## Things to remember 
 Here's what we should remember:
 - A sequence model can be used to generate musical values, which are then post-processed into midi music. 
